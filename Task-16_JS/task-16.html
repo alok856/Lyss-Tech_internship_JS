@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS Assignment 16</title>
+    <link rel="stylesheet" href="js.css">
+</head>
+
+<body>
+
+    <h1><b><u>Assignment 16: JavaScript</u></b></h1>
+
+    <!-- Q1 -->
+    <section>
+        <h2>Q1: Show Form Data on Same Page.</h2>
+        <form id="infoForm">
+            <label>Name: <input type="text" id="name"></label><br><br>
+            <label>Age: <input type="number" id="age"></label><br><br>
+            <label>Email: <input type="email" id="email"></label><br><br>
+            <button type="button" onclick="showFormData()">Submit</button>
+        </form>
+        <div class="output" id="formOutput"></div>
+    </section>
+
+    <!-- Q2 -->
+    <section>
+        <h2>Q2: Change Image on Click.</h2>
+        <img id="imageBox" src="https://static.toiimg.com/thumb/msid-105202747,width-400,resizemode-4/105202747.jpg" width="150" alt="Plz refresh the Page"><br>
+        <button onclick="changeImage()">Change Image</button>
+    </section>
+
+    <!-- Q3 -->
+    <section>
+        <h2>Q3: Increase & Decrease Font Size.</h2>
+        <p id="fontText">Hey ! I Am Developer Alok</p>
+        <button onclick="changeFontSize('increase')">Increase</button>
+        <button onclick="changeFontSize('decrease')">Decrease</button>
+    </section>
+
+    <!-- Q4 -->
+    <section>
+        <h2>Q4: Show Current Date & Time.</h2>
+        <button onclick="showDateTime()">Show Date & Time</button>
+        <div class="output" id="dateOutput"></div>
+    </section>
+
+    <!-- JS files -->
+    <script src="q1.js"></script>
+    <script src="q2.js"></script>
+    <script src="q3.js"></script>
+    <script src="q4.js"></script>
+
+</body>
+
+</html>

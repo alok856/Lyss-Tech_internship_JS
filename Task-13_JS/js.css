@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3e3ea;
+    padding: 20px;
+  }
+  h1 {
+    color: #252424;
+  }
+  pre {
+    background-color: #f0d6dc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
