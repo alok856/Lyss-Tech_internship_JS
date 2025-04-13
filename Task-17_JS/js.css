@@ -7,7 +7,7 @@
   body {
     font-family: 'Orbitron', sans-serif;
     height: 100vh;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(135deg, #127dab, #142d05, #3d2c64);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,9 +58,9 @@
     padding: 20px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
-    color: #00f7ff;
+    color: #fb8b1b;
     font-family: monospace;
-    font-size: 16px;
+    font-size: 20px;
     overflow-y: auto;
     box-shadow: 0 0 10px rgba(255, 102, 0, 0.347);
     border: 1px solid rgba(183, 255, 0, 0.3);
