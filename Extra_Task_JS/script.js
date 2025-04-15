@@ -1,12 +1,16 @@
-document.getElementById("submitBtn").addEventListener("click", function() {
+document.getElementById("submitBtn").addEventListener("click", function () {
     let password = document.getElementById("password").value;
     let message = document.getElementById("message");
-
-    if (password.length < 8) {
-        message.textContent = "❌ Password must be at least 8 characters long.";
-        message.style.color = "red";
+  
+    const strongPasswordRegex =
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+  
+    if (strongPasswordRegex.test(password)) {
+      message.textContent = "✅ Password is strong!";
+      message.style.color = "green";
     } else {
-        message.textContent = "✅ Password is valid!";
-        message.style.color = "green";
+      message.textContent =
+        "❌ Use 8+ chars, include uppercase, lowercase, number & special character.";
+      message.style.color = "red";
     }
-});
+  });  
