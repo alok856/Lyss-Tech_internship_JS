@@ -7,7 +7,7 @@
   body {
     font-family: 'Orbitron', sans-serif;
     height: 100vh;
-    background: linear-gradient(135deg, #127dab, #142d05, #3d2c64);
+    background: linear-gradient(135deg, #f4d186, #9aa096, #5f872b);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,8 +20,8 @@
   h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #fb9127;
-    text-shadow: 0 0 10px #066358;
+    color: #25c9d5;
+    text-shadow: 0 0 10px #794c08;
   }
 
   .buttons {
@@ -36,9 +36,9 @@
     font-size: 18px;
     border: none;
     border-radius: 12px;
-    background: rgba(0, 255, 255, 0.1);
-    color: #ffea00;
-    border: 2px solid #f8f5c2;
+    background: rgba(10, 164, 181, 0.1);
+    color: #28190c;
+    border: 2px solid #f4b784;
     cursor: pointer;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
@@ -48,7 +48,7 @@
     background-color: #1799f681;
     color: #000;
     transform: scale(1.05);
-    box-shadow: 0 0 10px #c68101;
+    box-shadow: 0 0 10px #583a04;
   }
 
   #output {
@@ -56,9 +56,9 @@
     max-width: 800px;
     min-height: 150px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(207, 4, 4, 0.05);
     border-radius: 15px;
-    color: #fb8b1b;
+    color: #171008;
     font-family: monospace;
     font-size: 20px;
     overflow-y: auto;
